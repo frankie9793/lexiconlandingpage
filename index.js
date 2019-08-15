@@ -36,15 +36,15 @@ app.post('/send', (req, res) => {
         // port: 587,
         service: 'Gmail',
         auth: {
-          user: 'frankie9793@gmail.com', // generated ethereal user
-          pass: '448360149aA!' // generated ethereal password
+          user: process.env.from, // generated ethereal user
+          pass: process.env.pass // generated ethereal password
         }
       });
     
       // send mail with defined transport object
       let info = transporter.sendMail({
         from: '"Admin Wobble App" <frankie9793@gmail.com>', // sender address
-        to: "wobbleapp2019@gmail.com", // list of receivers
+        to: process.env.to, // list of receivers
         subject: "Interested user", // Subject line
         text: "Hello world?", // plain text body
         html: output // html body
