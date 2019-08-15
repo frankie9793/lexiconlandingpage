@@ -1,0 +1,53 @@
+.form-input-email {
+    display: inline-block; 
+    height: 48px; 
+    border: 1px solid white; 
+    border-radius: 2px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding: 5px 8px;
+    color: black;
+    width: 10rem;
+    margin-bottom: 7px;
+    font-size: 0.75rem;
+    text-overflow: ellipsis;
+
+}
+
+.features-extended::before {
+    position: static;
+}
+
+.button-primary {
+    width: 8rem;
+}
+
+.button-shad {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.return-msg {
+    color: red;
+    font-size: 0.75rem;
+}
+
+@media (max-width: 1200px) { /* tab landscape */
+    /* .form-input-email{
+        width: 7vw;
+        font-size: 0.5rem;
+    }
+
+    .button-primary {
+        width: 6vw;
+        font-size: 0.5rem;
+    } */
+}
+@media (max-width: 900px) { /* tab portrait */ 
+
+}
+@media (max-width: 600px) { /* phone */
+
+}
+@media (min-width: 1800px) { /* big desktop */
+
+}
