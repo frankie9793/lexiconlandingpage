@@ -31,6 +31,20 @@
     font-size: 0.75rem;
 }
 
+
+.cta-text {
+    font-size: 0.8rem;
+}
+.cta-container {
+    margin-top: 8vh;
+    text-align: center;
+}
+
+.cta-form {
+    margin: 0 auto;
+}
+
+
 @media (max-width: 1200px) { /* tab landscape */
     /* .form-input-email{
         width: 7vw;
